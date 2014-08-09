@@ -2,33 +2,23 @@
 
 #relatorios{
     float: left;
-    width: 408px;
+    width: 600px;
     height: auto;
-    min-height: 700px;
+    min-height: 500px;
     margin-top: 5px;
     margin-bottom: 5px;
     background-color: #EDEDED;
     margin-right: 5px;
-    margin-left: 25px;
+    margin-left: 70px;
 }
 #acessos{
     float: left;
-    width: 408px;
+    width: 600px;
     height: auto;
-    min-height: 700px;
+    min-height: 500px;
     margin-top: 5px;
     margin-bottom: 5px;
     background-color: #EDEDED;
     margin-right: 5px;
-    margin-left: 25px;
-}
-#outros{
-    float: left;
-    width: 408px;
-    height: auto;
-    min-height: 700px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    background-color: #EDEDED;
     margin-left: 25px;
 }
