@@ -24,3 +24,10 @@
     margin-left: 25px;
 	text-align:center;
 }
+
+#caixaRelatorio{
+	width:500px;
+	height:auto;
+	margin-left:30px;
+	background-color: lightgray;
+}
