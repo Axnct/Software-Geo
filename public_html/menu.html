@@ -16,6 +16,13 @@
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$('#nav li').on('click', function(){				 
+					$(this).addClass('active').siblings().removeClass('active');
+				});
+			})
+		</script>
     </head>
     <body style="background-color: transparent">
         <!--[if lt IE 7]>
@@ -50,9 +57,9 @@
     
         
         <!-- SCRIPT JQUERY -->
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.js"></script>
+        <script src="js/jquery.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.js"><\/script>')</script>
         <script src="js/vendor/bootstrap.min.js"></script>
         <script src="js/main.js"></script>
-    </body>
+</body>
 </html>
